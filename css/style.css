@@ -8,18 +8,14 @@
     width: 70%;
     height: 600px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .team-introduction {
     text-align: center;
-    border: 1px solid blue;
 }
 
 .title , .description {
     padding: 20px;
-    border: 1px solid green;
-
 }
 
 .title {
@@ -28,6 +24,7 @@
 }
 
 .team-cards {
+    padding: 10px 0;
 }
 
 .team-cards::after {
@@ -37,10 +34,12 @@
 }
 
 .card1 {
+    width: 325px;
     float: left;
     background-color: black;
-    margin: 25px;
-    padding-right: 30px;
+    margin: 3px 16px;
+    padding-right: 56px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card1::after {
@@ -49,8 +48,33 @@
     clear: both;
 }
 
-.pic {
+.pic1 {
     background-image: url(../assets/img/male1.png);
+    float: left
+}
+
+.pic2 {
+    background-image: url(../assets/img/female1.png);
+    float: left
+}
+
+.pic3 {
+    background-image: url(../assets/img/male2.png);
+    float: left
+}
+
+.pic4 {
+    background-image: url(../assets/img/female2.png);
+    float: left
+}
+
+.pic5 {
+    background-image: url(../assets/img/male3.png);
+    float: left
+}
+
+.pic6 {
+    background-image: url(../assets/img/female3.png);
     float: left
 }
 
