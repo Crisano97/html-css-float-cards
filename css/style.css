@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.team-introduction {
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.title , .description {
+    padding: 20px;
+    border: 1px solid green;
+
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(239, 52, 152);
+}
+
+.team-cards {
+}
+
+.team-cards::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card1 {
+    float: left;
+    background-color: black;
+    margin: 25px;
+    padding-right: 30px;
+}
+
+.card1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pic {
+    background-image: url(../assets/img/male1.png);
+    float: left
+}
+
+.mod {
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+
+.bio {
+    float: left;
+    margin: 10px;
+}
+
+.name , .job {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 207, 207);
+}
